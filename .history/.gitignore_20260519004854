@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+.env
+.venv/
+
+wandb/
+logs/
+checkpoints/
+
+*.pt
+*.pth
+*.bin
+
+feature_cache/
+Qwen2.5-3B

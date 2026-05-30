@@ -1,0 +1,79 @@
+[
+  {
+    "tag": "full",
+    "active_views": [
+      "sem",
+      "str",
+      "traj"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation/full",
+    "train_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/full_train_fused_queries.pt",
+    "test_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/full_test_fused_queries.pt",
+    "best_epoch": 85,
+    "best_recall@1": 0.10899182561307902,
+    "best_recall@5": 0.19209809264305178,
+    "best_recall@10": 0.2329700272479564,
+    "best_recall@20": 0.28746594005449594,
+    "best_train_recall@20": 0.6151333696243876,
+    "best_gate_sem": 0.2722554374700305,
+    "best_gate_str": 0.285321948857143,
+    "best_gate_traj": 0.4424226140153819
+  },
+  {
+    "tag": "no_sem",
+    "active_views": [
+      "str",
+      "traj"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation/no_sem",
+    "train_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/no_sem_train_fused_queries.pt",
+    "test_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/no_sem_test_fused_queries.pt",
+    "best_epoch": 67,
+    "best_recall@1": 0.10149863760217984,
+    "best_recall@5": 0.18392370572207084,
+    "best_recall@10": 0.22343324250681199,
+    "best_recall@20": 0.27111716621253407,
+    "best_train_recall@20": 0.5724006532389766,
+    "best_gate_sem": 0.0,
+    "best_gate_str": 0.4020419179022997,
+    "best_gate_traj": 0.5979580844955883
+  },
+  {
+    "tag": "no_str",
+    "active_views": [
+      "sem",
+      "traj"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation/no_str",
+    "train_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/no_str_train_fused_queries.pt",
+    "test_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/no_str_test_fused_queries.pt",
+    "best_epoch": 102,
+    "best_recall@1": 0.07084468664850137,
+    "best_recall@5": 0.15122615803814715,
+    "best_recall@10": 0.18528610354223432,
+    "best_recall@20": 0.24182561307901906,
+    "best_train_recall@20": 0.5765741244783161,
+    "best_gate_sem": 0.388412324518993,
+    "best_gate_str": 0.0,
+    "best_gate_traj": 0.6115876758235624
+  },
+  {
+    "tag": "no_traj",
+    "active_views": [
+      "sem",
+      "str"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation/no_traj",
+    "train_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/no_traj_train_fused_queries.pt",
+    "test_fused_query": "./datasets/NYC/preprocessed/gsm8k_ablation_fused_queries/no_traj_test_fused_queries.pt",
+    "best_epoch": 57,
+    "best_recall@1": 0.07152588555858311,
+    "best_recall@5": 0.15735694822888283,
+    "best_recall@10": 0.20095367847411444,
+    "best_recall@20": 0.2608991825613079,
+    "best_train_recall@20": 0.46888042097622934,
+    "best_gate_sem": 0.4575135474917532,
+    "best_gate_str": 0.5424864535359131,
+    "best_gate_traj": 0.0
+  }
+]

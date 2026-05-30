@@ -1,0 +1,14 @@
+{
+  "config_source": "config.pth",
+  "inference_config": {
+    "hidden_size": 96,
+    "dropout": 0.5,
+    "fusion_type": "gated",
+    "fusion_heads": 4,
+    "graph_alignment": "none",
+    "graph_align_heads": 4,
+    "graph_align_residual": true,
+    "max_seq_len": 20,
+    "max_graph_nodes": 20
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_dir": "LLM4POI/rag/target_poi_multiview/artifacts_cat_bias_nyc_v1",
+  "model_path": "LLM4POI/rag/target_poi_multiview/artifacts_cat_bias_nyc_v1/model.pth",
+  "dataset_name": "nyc",
+  "config_source": "config.pth",
+  "inference_config": {
+    "hidden_size": 96,
+    "dropout": 0.5,
+    "fusion_type": "gated",
+    "fusion_heads": 4,
+    "graph_alignment": "none",
+    "graph_align_heads": 4,
+    "graph_align_residual": true,
+    "max_seq_len": 20,
+    "max_graph_nodes": 20
+  },
+  "train_samples": 11022,
+  "test_samples": 1429,
+  "train": {
+    "acc@1": 0.362003266194883,
+    "acc@5": 0.5890038105606968,
+    "acc@10": 0.6731990564325894,
+    "acc@20": 0.7455089820359282
+  },
+  "test": {
+    "acc@1": 0.12386284114765571,
+    "acc@5": 0.2491252624212736,
+    "acc@10": 0.30440867739678096,
+    "acc@20": 0.3624912526242127
+  }
+}

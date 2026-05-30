@@ -1,0 +1,79 @@
+[
+  {
+    "tag": "full",
+    "active_views": [
+      "sem",
+      "str",
+      "traj"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation_ca/full",
+    "train_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/full_train_fused_queries.pt",
+    "test_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/full_test_fused_queries.pt",
+    "best_epoch": 109,
+    "best_recall@1": 0.0841459010473095,
+    "best_recall@5": 0.18237630913687253,
+    "best_recall@10": 0.23040808956301914,
+    "best_recall@20": 0.27988443481401226,
+    "best_train_recall@20": 0.4891103829951265,
+    "best_gate_sem": 0.23409135303866696,
+    "best_gate_str": 0.25100427614131443,
+    "best_gate_traj": 0.5149043696657033
+  },
+  {
+    "tag": "no_sem",
+    "active_views": [
+      "str",
+      "traj"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation_ca/no_sem",
+    "train_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/no_sem_train_fused_queries.pt",
+    "test_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/no_sem_test_fused_queries.pt",
+    "best_epoch": 102,
+    "best_recall@1": 0.09209100758396534,
+    "best_recall@5": 0.19429396894185627,
+    "best_recall@10": 0.24052004333694474,
+    "best_recall@20": 0.30227518959913324,
+    "best_train_recall@20": 0.5716842424075552,
+    "best_gate_sem": 0.0,
+    "best_gate_str": 0.35574749384967375,
+    "best_gate_traj": 0.6442525069898283
+  },
+  {
+    "tag": "no_str",
+    "active_views": [
+      "sem",
+      "traj"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation_ca/no_str",
+    "train_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/no_str_train_fused_queries.pt",
+    "test_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/no_str_test_fused_queries.pt",
+    "best_epoch": 102,
+    "best_recall@1": 0.09461899602744674,
+    "best_recall@5": 0.18779342723004694,
+    "best_recall@10": 0.23690863127482845,
+    "best_recall@20": 0.29721921271217044,
+    "best_train_recall@20": 0.5837715796139762,
+    "best_gate_sem": 0.3467072849752198,
+    "best_gate_str": 0.0,
+    "best_gate_traj": 0.6532927153395934
+  },
+  {
+    "tag": "no_traj",
+    "active_views": [
+      "sem",
+      "str"
+    ],
+    "artifact_dir": "./rag/target_poi_multiview/gsm8k_ablation_ca/no_traj",
+    "train_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/no_traj_train_fused_queries.pt",
+    "test_fused_query": "./datasets/CA/preprocessed/gsm8k_ablation_fused_queries/no_traj_test_fused_queries.pt",
+    "best_epoch": 78,
+    "best_recall@1": 0.0805344889851932,
+    "best_recall@5": 0.18165402672444925,
+    "best_recall@10": 0.23149151318165404,
+    "best_recall@20": 0.29216323582520765,
+    "best_train_recall@20": 0.5170296539001624,
+    "best_gate_sem": 0.49591112430666534,
+    "best_gate_str": 0.5040888763229612,
+    "best_gate_traj": 0.0
+  }
+]
